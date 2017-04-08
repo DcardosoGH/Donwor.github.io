@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+html{
+    
+    background: url('Images/bg.jpg');
+}
+
+body{
+    background: none;
+}
+
+
+/* Nav customization 
+.navbar-brand{
+    
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.navbar-nav>li>a{
+    color:whitesmoke;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar-nav>li>a:hover, .navbar-brand:hover{
+    background: none;
+    color: cadetblue;
+}
+
+.navbar-toggle .icon-bar{
+   background: white;
+    color: white;
+    }
+
+*/
+
+
+/* Huge Hello World customization */
+
+
+
+.jumbotron{
+    
+    background: none;
+    
+}
+
+
+.jumbotron h1{
+    
+    font-size: 250px;
+    color: whitesmoke;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+}
+
+.jumbotron h1:hover{
+	opacity: 0.5;    
+    
+}
+
+.jumbotron h2:hover {
+	opacity: 0.5;
+}
+
+.jumbotron h2{
+    
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+}
+
+
+
+
+
+#jumbo{
+    height: 100vh;
+    padding-bottom: 100px;
+}
+
+
+#arrow-down{
+    
+    background-color: rgba(255, 255, 255, 0.42);
+    border: 0px;
+    padding: 3px;
+    background: none;
+}
+
+#arrow-down:hover{
+    
+    border: 0px;
+    padding: 3px;
+    background:none;
+}
+
+
+.glyphicon{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.glyphicon:hover{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+#me{
+    
+    background: #2A3A3F;
+    padding-bottom: 100px;
+    padding-top: 100px;   
+}
+
+#me h1{
+    
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Open Sans';
+}
+
+#me h1:hover{
+    opacity: 0.5;
+}
+
+#me h3{
+    
+    color: aliceblue;
+    font-family: 'Open Sans';
+}
+
+
+#me p{
+    
+    margin-top: 15px;
+    color: aliceblue;
+    font-family: 'Roboto Slab', serif;
+   
+}
+
+#me img{
+    
+    height: 250px;
+    width: 300px;
+    border-radius:10%;
+}
+
+#me img:hover{
+     border-radius:40%;
+        
+    
+}
+
+
+
+#skills {
+	background-color: white;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    font-family: ;
+    
+}
+
+#skills h1{
+    
+    color: #2A3A3F;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+#skills h1:hover{
+    opacity: 0.5;
+}
+
+
+
+#skills h2{
+    color: #2A3A3F;
+    font-family: 'Russo One', sans-serif;
+    
+}
+
+#skills h2:hover {
+	opacity: 0.5;
+}
+
+#skills p{
+    
+    color: grey;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#skills-imagem{
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;  
+}
+
+#skills i.fa{
+	font-size: 8.0rem;
+    
+        
+}
+
+.yellow {
+    color: #FDCD3B;
+}
+
+.yellow:hover{
+     -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+.s1{
+    
+     margin-left: 10px;
+}
+
+
+.s2{
+    margin-left: 10px;
+}
+
+.s3{
+    
+    margin-left: 10px;
+}
+
+
+
+#skills2 {
+	background-color: whitesmoke;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#skills2 h1{
+    
+    color: #2A3A3F;
+    font-family: 'Russo One', sans-serif;  
+    
+}
+
+
+#skills2 h2{
+    color: #2A3A3F;
+    font-family: 'Russo One', sans-serif;
+    
+}
+
+#skills2 p{ 
+    color: grey;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#skills2 h3{
+    
+    color: #2A3A3F;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* Individual sections(rows) inside Skills 2 */
+
+.sec1 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: white;
+    
+}
+
+.sec1:hover{
+    
+}
+
+.sec1 h1{
+    font-size: 28px;
+}
+
+
+
+.sec1 img{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 210px;
+    width: 270px; 
+}
+
+.sec2 {
+    
+    padding-top: 15px;
+     background-color: white;
+}
+
+.sec2 h1{
+    font-size: 28px;
+}
+
+.sec2 img{
+    padding-top: 15px;
+    padding-bottom: -10 px;
+    height: 200px;
+    width: 250px; 
+}
+
+
+.sec3 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+     background-color: white;
+}
+
+.sec3 img{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sec3 h1{
+    font-size: 28px;
+}
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#2A3A3F;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+.white{
+    color: aliceblue;
+}
+
+.white:hover{
+    color: cadetblue
+}
+
+.go-top{
+    
+    background: #2A3A3F
+}
+
+#arrow-up{
+    background: none;
+    background-color: none;
+}
+
+.contacto{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+.contacto h1{
+    padding:0px 0px 20px 0px;
+    font-family: 'Russo One', sans-serif;  
+    
+}
+
+.alive{
+    
+    border: 0px;
+    padding: 0px;
+    background: none;
+    text-decoration: underline;
+    color: cadetblue;
+}
+
+.alive:hover{
+    
+    border: 0px;
+    padding: 0px;
+    background: none;
+    text-decoration: underline;
+    color: #2A3A3F;
+}
+
+.alive:active{
+    
+    border: 0px;
+    padding: 0px;
+    background: none;
+    text-decoration: underline;
+    color: red;    
+}
+
