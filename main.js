@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    
+    
 
     $("#arrow-down").click(function() {
     $('html, body').animate({
@@ -16,9 +18,10 @@ $(document).ready(function () {
     
     $(".alive").click(function(){
       
-      $(".sec1").toggle('bounce');
-        $(".sec3").toggle('bounce');
-    });
+      $(".sec1").fadeToggle(1000);
+        $(".sec3").fadeToggle(1000);    
+        $('.hr').fadeToggle(1000);
+});
     
     
   
