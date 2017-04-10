@@ -52,28 +52,18 @@ body{
 
 .jumbotron h1{
     
-    font-size: 250px;
+    font-size: 200px;
     color: whitesmoke;
     font-family: 'Roboto Slab', serif;
-    text-decoration: underline;
     opacity: 0.5;  
 }
 
-.jumbotron h1:hover{
-	  
-    
-}
-
-.jumbotron h2:hover {
-	
-}
 
 .jumbotron h2{
     
     font-size: 40px;
     color: whitesmoke;
     font-family: 'Roboto Slab', serif;
-    text-decoration: underline;
     opacity: 0.5;
 }
 
@@ -127,9 +117,6 @@ body{
     font-family: 'Open Sans';
 }
 
-#me h1:hover{
-    opacity: 0.5;
-}
 
 #me h3{
     
@@ -153,11 +140,7 @@ body{
     border-radius:10%;
 }
 
-#me img:hover{
-     border-radius:40%;
-        
-    
-}
+
 
 
 
@@ -176,9 +159,6 @@ body{
 }
 
 
-#skills h1:hover{
-    opacity: 0.5;
-}
 
 
 
@@ -188,9 +168,6 @@ body{
     
 }
 
-#skills h2:hover {
-	opacity: 0.5;
-}
 
 #skills p{
     
@@ -241,14 +218,14 @@ body{
 
 
 #skills2 {
-	background-color: whitesmoke;
+	background-color: #2A3A3F;
     padding-top: 80px;
     padding-bottom: 100px;
 }
 
 #skills2 h1{
     
-    color: #2A3A3F;
+    color: white;
     font-family: 'Russo One', sans-serif;  
     
 }
@@ -337,11 +314,11 @@ body{
 }
 
 .footer{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 3px;
+    padding-bottom: 50px;
     background-color:#2A3A3F;
     color: aliceblue;
-    font-family: cursive;
+    
 }
 
 .white{
@@ -354,7 +331,8 @@ body{
 
 .go-top{
     
-    background: #2A3A3F
+    background: #2A3A3F;
+    padding-top: 40px;
 }
 
 #arrow-up{
@@ -362,10 +340,11 @@ body{
     background-color: none;
 }
 
+
 .contacto{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: white;
 }
 
 .contacto h1{
