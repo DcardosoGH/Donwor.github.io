@@ -56,15 +56,16 @@ body{
     color: whitesmoke;
     font-family: 'Roboto Slab', serif;
     text-decoration: underline;
+    opacity: 0.5;  
 }
 
 .jumbotron h1:hover{
-	opacity: 0.5;    
+	  
     
 }
 
 .jumbotron h2:hover {
-	opacity: 0.5;
+	
 }
 
 .jumbotron h2{
@@ -73,6 +74,7 @@ body{
     color: whitesmoke;
     font-family: 'Roboto Slab', serif;
     text-decoration: underline;
+    opacity: 0.5;
 }
 
 
