@@ -60,13 +60,13 @@ body{
 
 @media (min-width: 200px) {
     .jumbotron h1 {
-        font-size: 8rem;
+        font-size: 7rem;
     }
 }
 
 @media (min-width: 400px) {
     .jumbotron h1 {
-        font-size: 13rem;
+        font-size: 12rem;
     }
 }
 
@@ -78,7 +78,7 @@ body{
 
 @media (min-width: 800px) {
      .jumbotron h1 {
-        font-size: 19rem;
+        font-size: 1rem;
     }
 }
 
