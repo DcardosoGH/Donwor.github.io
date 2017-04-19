@@ -1,7 +1,7 @@
 $(document).ready(function () {
     
-    
-
+   
+     
     $("#arrow-down").click(function() {
     $('html, body').animate({
         scrollTop: $("#me").offset().top
@@ -20,11 +20,14 @@ $(document).ready(function () {
       
       $(".sec1").fadeToggle(1000);
         $(".sec3").fadeToggle(1000);    
-        $('.hr').fadeToggle(1000);
+        $('.hr').fadeToggle(1000);         
 });
     
+   
+ 
     
-  
+    
+    
 });
 
 
