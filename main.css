@@ -58,6 +58,12 @@ body{
     opacity: 0.5;  
 }
 
+@media (min-width: 200px) {
+    .jumbotron h1 {
+        font-size: 8rem;
+    }
+}
+
 @media (min-width: 400px) {
     .jumbotron h1 {
         font-size: 13rem;
@@ -85,6 +91,31 @@ body{
     font-family: 'Roboto Slab', serif;
     opacity: 0.5;
 }
+
+@media (min-width: 200px) {
+    .jumbotron h2 {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 400px) {
+    .jumbotron h1 {
+        font-size: 13rem;
+    }
+}
+
+@media (min-width: 600px) {
+   .jumbotron h1 {
+        font-size: 16rem;
+    }
+}
+
+@media (min-width: 800px) {
+     .jumbotron h1 {
+        font-size: 19rem;
+    }
+}
+
 
 
 
@@ -236,6 +267,13 @@ body{
     margin-left: 10px;
 }
 
+.ex1{
+    margin-bottom: 50px;
+}
+
+.ex2{
+    margin-bottom: 50px;
+}
 
 
 #skills2 {
