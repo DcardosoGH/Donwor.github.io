@@ -9,7 +9,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
         <link href="main.css" rel="stylesheet">
-    </head><body>
+    </head><body data-spy="scroll">
         <!-- nav <nav class="navbar navbar-fixed-top">
 
     <div class="container-fluid">
@@ -60,7 +60,7 @@
             <div class="container">
                 <div class="row">
                     <div class="jumbotron">
-                        <h1 class="text-center">Hello, world!</h1>
+                        <h1 class="text-center"><i class="fa fa-code"></i>Hello, world!</h1>
                         <br>
                         <br>
                         <h2 class="text-center">Take a look..</h2>
@@ -84,9 +84,9 @@
                         <img src="Images/me.jpg" class="img-responsive img-thumbnail img-circle">
                     </div>
                     <div class="col-md-6 col-xs-12">
-                        <h1 class="text-center">Who am I?</h1>
-                        <h3>My name is Diogo and I am a young Front End Developer!</h3>
-                        <p>As I said, I’m a Front-End Developer based in Lisbon, who loves creating
+                        <h1 class="text-right">Who am I?</h1>
+                        <h3 class="text-center">My name is Diogo and I am a young Front End Developer!</h3>
+                        <p class="text-justify">As I said, I’m a Front-End Developer based in Lisbon, who loves creating
                             great looking web products with rock-solid code. I studied Computer Science
                             but programming has always been my true passion. I only make the same mistake
                             once and I believe in constructive criticism.</p>
@@ -109,23 +109,23 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-xs-12 text-center ex1">
-                        <i class="fa fa-code yellow s1" aria-hidden="true"></i>
+                        <i class="fa yellow s1 fa-file-code-o" aria-hidden="true"></i>
                         <h2>Good ol' coding</h2>
-                        <p>I design in the browser with HTML(5), CSS(3) and a touch of JavaScript
+                        <p class="text-center">I design in the browser with HTML(5), CSS(3) and a touch of JavaScript
                             (of course jQuery too). I love coding things from scratch, but I can work
                             with front-end frameworks like Bootstrap too.</p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 text-center ex2">
                         <i class="fa fa-lightbulb-o yellow s2" aria-hidden="true"></i>
                         <h2>Ideas</h2>
-                        <p>Bringing ideas to the table and implementing them is what I truly love
+                        <p class="text-center">Bringing ideas to the table and implementing them is what I truly love
                             to do. Working with peers and clients to make the best product we can is
                             my every-day goal.</p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-12 text-center ex3">
                         <i class="fa fa-tasks yellow s3" aria-hidden="true"></i>
                         <h2>Learning!</h2>
-                        <p>
+                        <p class="text-center">
                             <strong>Yes. Learning. A lot.</strong>I am a person with a High level of autonomy
                             and sense of personal responsibility in achieving success. Strong desire
                             for expansion of current skillset in a fast-paced work environment.</p>
@@ -153,10 +153,10 @@
                     </div>
                     <div class="col-md-6 col-xs-12 text-center">
                         <h1 style="color:#2A3A3F;">The holy trio</h1>
-                        <h3>HTML, CSS and JS</h3>
-                        <p>Strong and solid knowledge of the most popular trio of languages of the
+                        <h3 class="text-left">HTML, CSS and JS</h3>
+                        <p class="text-left">Strong and solid knowledge of the most popular trio of languages of the
                             web.</p>
-                        <p>They are the foundation to most projects, and fundamental to any Front
+                        <p class="text-left">They are the foundation to most projects, and fundamental to any Front
                             End Developer.</p>
                         <!-- <div class="progress">
 
@@ -182,8 +182,8 @@
                     </div>
                     <div class="col-md-6 col-xs-12 text-center">
                         <h1 style="color:#2A3A3F;">Frameworks and Libraries</h1>
-                        <h3>Bootstrap, jQuery</h3>
-                        <p>Responsive design is everywhere these days, but also saving time with
+                        <h3 class="text-left">Bootstrap, jQuery</h3>
+                        <p class="text-left">Responsive design is everywhere these days, but also saving time with
                             the fantastic grid system and other amazing components of this framework
                             is a very handy tool.
                             <br>jQuery provides fantastic animations and effects that make the page truly
@@ -212,9 +212,9 @@
                     </div>
                     <div class="col-md-6 col-xs-12 text-center">
                         <h1 style="color:#2A3A3F;">Some Back-End too..</h1>
-                        <h3>PHP and MySQL</h3>
-                        <p>Retrieving and displaying data from databases are a must on some projects.</p>
-                        <p>PHP and MySQL go together like bread and butter.</p>
+                        <h3 class="text-left">PHP and MySQL</h3>
+                        <p class="text-left">Retrieving and displaying data from databases are a must on some projects.</p>
+                        <p class="text-left">PHP and MySQL go together like bread and butter.</p>
                         <!-- <div class="progress">
 
               <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width: 75%;">75% Complete</div>
@@ -231,8 +231,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </div><div class="section"><div class="background-image"></div> </div>
         <div class="contacto">
             <h1 class="cnt-me text-center">
                 <u>Contact me!</u>
@@ -269,7 +268,7 @@
                         <div class="col-md-3 col-xs-6">
                             <div class="form-group">
                                 <label for="form_phone">Phone</label>
-                                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                <input id="form_phone" type="text" name="phone" class="form-control" placeholder="Please enter your phone">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
@@ -289,7 +288,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-3 hidden-lg hidden-sm hidden-xs"></div>
-                        <div class="col-md-6 col-xs-12 text-center">
+                        <div class="col-lg-12 col-md-6 col-xs-12 text-center">
                             <p class="text-muted">
                                 <strong>*</strong>These fields are required.</p>
                         </div>
@@ -306,7 +305,7 @@
             </div>
         </div>
         <!-- footer -->
-        <footer class="section footer">
+        <footer class="footer section">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 hidden-lg hidden-md hidden-sm hidden-xs"></div>
