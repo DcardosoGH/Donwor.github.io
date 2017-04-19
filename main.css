@@ -119,8 +119,6 @@ body{
 
 
 
-
-
 #jumbo{
     
     height: 100vh;
@@ -135,6 +133,7 @@ body{
     border: 0px;
     padding: 3px;
     background: none;
+    
 }
 
 #arrow-down:hover{
@@ -146,13 +145,13 @@ body{
 
 
 .glyphicon{
-    font-size: 50px;
+    font-size: 80px;
     color: aliceblue;
 }
 
 .glyphicon:hover{
-    font-size: 50px;
-    color: rgba(0, 0, 0, 0.54);
+    font-size: 80px;
+    opacity: 0.5;
 }
 
 #me{
