@@ -151,7 +151,7 @@ body{
 
 #me{
     
-    background: white;
+    background: black;
     padding-bottom: 100px;
     padding-top: 100px;   
 }
@@ -163,6 +163,7 @@ body{
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 900;
     text-transform: uppercase;
+    color: whitesmoke;
 }
 
 
@@ -173,6 +174,7 @@ body{
     font-size: 20px;
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 800;
+    color: whitesmoke;
     
 }
 
@@ -183,6 +185,7 @@ body{
     color: #1f1f1f;    
     line-height: 1.5;
     font-size: 18px;
+    color: whitesmoke;
    
 }
 
