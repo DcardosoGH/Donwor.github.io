@@ -8,6 +8,7 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         <link href="main.css" rel="stylesheet">
     </head>
     
@@ -15,29 +16,23 @@
     <body data-spy="scroll">
        <!-- Hello World -->
         <div class="section" id="jumbo">
-            <hr>
-            <hr>
-            <hr>
+           <br>
+           <br>
+           <br>
                                             
-                <h1 class="text-center" style=" font-size:20vh; color: whitesmoke; font-family: 'Roboto Slab', serif;">
+                <h1 id="intro" class="text-center animated" style=" font-size:20vh; color: whitesmoke; font-family: 'Roboto Slab', serif;">
                             <i class="fa fa-code"></i>
                                 Hello, world!</h1>
                         
-                <h2 class=" text-center" style=" font-size: 5vw; color: whitesmoke; font-family: 'Roboto Slab', serif;">
+                <h2 id="intro2" class=" text-center animated" style=" font-size: 5vw; color: whitesmoke; font-family: 'Roboto Slab', serif;">
                                 Take a look..</h2>
             
                          <!-- Down arrow icon -->
                         <div class="col-lg-12 col-xs-12 text-center">
-                            <button id="arrow-down" class="btn btn-lg">
+                            <button id="arrow-down" class="btn btn-lg animated">
                                 <span class="glyphicon glyphicon-chevron-down"></span>
                             </button>
-                        </div>
-                        
-                    
-                
-            
-           
-          
+                        </div>                 
         </div>
         <!-- about me -->
         <div class="section" id="me">
@@ -62,7 +57,7 @@
             <div class="container">
                 <div class="row skills">
                     <div class="col-md-12">
-                        <h1 class="text-center">
+                        <h1 class="text-center animated" id="expertise">
                             <u>My Expertise</u>
                         </h1>
                         <br>
@@ -71,21 +66,21 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-xs-12 text-center ex1">
+                    <div class="col-lg-4 col-md-4 col-xs-12 text-center ex1 animated">
                         <i class="fa yellow s1 fa-file-code-o" aria-hidden="true"></i>
                         <h2 class="">Good ol' coding</h2>
                         <p class="text-center">I design in the browser with HTML(5), CSS(3) and a touch of JavaScript
                             (of course jQuery too). I love coding things from scratch, but I can work
                             with front-end frameworks like Bootstrap too.</p>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-xs-12 text-center ex2">
+                    <div class="col-lg-4 col-md-4 col-xs-12 text-center ex2 animated">
                         <i class="fa fa-lightbulb-o yellow s2" aria-hidden="true"></i>
                         <h2>Ideas</h2>
                         <p class="text-center">Bringing ideas to the table and implementing them is what I truly love
                             to do. Working with peers and clients to make the best product we can is
-                            my every-day goal.</p>
+                            my every-day goal.</p>  
                     </div>
-                    <div class="col-lg-4 col-md-4 col-xs-12 text-center ex3">
+                    <div class="col-lg-4 col-md-4 col-xs-12 text-center ex3 animated">
                         <i class="fa fa-tasks yellow s3" aria-hidden="true"></i>
                         <h2>Learning!</h2>
                         <p class="text-center">I am a person with a High level of autonomy and sense of personal responsibility
@@ -99,7 +94,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1 wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
-                        <blockquote class="lead">
+                        <blockquote class="lead animated">
                             <p>
                                 <span class="quote">“Measuring programming process
                                     <span class="text-muted">by lines of code</span> is like measuring aircraft building progress
@@ -116,14 +111,14 @@
         </aside>
         <!-- skills 2 -->
     
-    <div class="section" id="skills2">
+    <div class="section animated" id="skills2">
         <div class="container-fluid">
             <div class="row"> 
                 <div class="col-md-12"> 
-                    <h1 class="text-center">My Skills</h1>
+                    <h1 class="text-center animated" id="myskills">My Skills</h1>
                 </div>
             </div>
-            <div class="row sk_1">
+            <div class="row sk_1 animated" id="sk_1">
                 <div class="col-md-3 col-sm-6 ">
                     <a>
                         <img src="Images\html5.png" class="center-block img-responsive"></a>
@@ -145,7 +140,7 @@
                 </div>
             </div>
             
-            <div class="row sk_1">
+            <div class="row sk_1 animated" id="sk_2">
                 <div class="col-md-3 col-md-3 col-sm-6 "> 
                     <a><img src="Images\php5.png" class="center-block img-responsive"></a> 
                     <h3 class="text-center">PHP</h3>
@@ -312,6 +307,7 @@
         <script src="main.js"></script>
         <script src="validator.js"></script>
         <script src="contact.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
     
 
 </body></html>
