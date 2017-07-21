@@ -27,13 +27,29 @@ $(document).ready(function() {
         return false;
     });
 
-     $('#expertise').waypoint(function() {
-         $('#expertise').addClass('FadeInDown');
-    }, { offset: '70%' });
+    
+
+     $('#expertise').waypoint(function(direction) {
+         if(direction === 'down'){
+             $('#expertise').addClass('fadeInDown');
+             $('#expertise').removeClass('fadeOutDown');
+         
+        }else if (direction === 'up') {
+
+            $('#expertise').addClass('fadeOutDown');
+            $('#expertise').removeClass('fadeInDown');
+        }     
+    }, { offset: '50%' });
+
+    
 
     $('.ex1').waypoint(function() {
          $('.ex1').addClass('FadeInLeft');
     }, { offset: '70%' });
+
+    $('.ex1').waypoint(function() {
+         $('.ex1').addClass('FadeInLeft');
+    }, { offset: '10%' });
 
   $('.ex2').waypoint(function() {
       $('.ex2').addClass('FadeInUp');
